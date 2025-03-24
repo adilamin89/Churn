@@ -55,17 +55,7 @@ AWS RDS for cloud-hosted database
 Google Colab / GCP / Azure for training and experimentation
 
 3. Project Structure
-
-├── notebooks/             # Jupyter/Colab training notebooks
-├── models/                # Saved MLflow models
-├── api/                   # Flask API app
-│   └── app.py             # Flask main file
-├── docker/                # Dockerfiles and requirements
-├── reports/               # Auto-generated PDF reports
-├── data/                  # Raw and cleaned datasets
-├── scripts/               # Training, evaluation, SHAP utils
-├── mlruns/                # MLflow tracking data
-└── README.md              # Project overview (this file)
+Churn_Prediction_Project/ │ ├── data/ # Raw and processed datasets │ └── WA_Fn-UseC_-Telco-Customer-Churn.csv │ ├── notebooks/ # Jupyter or Colab notebooks │ └── EDA_and_Modeling.ipynb │ ├── src/ # All source code │ ├── training/ # Model training scripts │ ├── evaluation/ # Metrics, plots, MLflow logging │ ├── deployment/ # Flask API code │ ├── shap_analysis/ # SHAP visualization & interpretation │ ├── database/ # SQL setup scripts (PostgreSQL) │ └── utils.py # Utility functions │ ├── reports/ # Auto-generated PDFs with plots, metrics, SHAP │ └── final_model_report.pdf │ ├── Dockerfile # Containerization setup ├── requirements.txt # Dependencies ├── README.md # Project documentation └── app.py # Flask app for serving predictions
 
 4. Getting Started
 
